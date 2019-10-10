@@ -13,7 +13,7 @@ def render_response():
         response = "That is also my favorite color."
     else:
         response = "My favorite color is something different."
-    return render_template('response.html')
+    return render_template('response.html', responseFromServer=response)
     
     
 if __name__=="__main__":
